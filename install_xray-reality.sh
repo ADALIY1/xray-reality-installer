@@ -31,7 +31,7 @@ GOFILE="${LATEST_VERSION}.linux-${GOARCH}.tar.gz"
 echo "🟢 安装基础工具..."
 apt update -y && apt upgrade -y
 apt install sudo -y
-sudo apt install -y curl git nano vim openssl
+sudo apt install -y git nano vim openssl
 
 echo "⬇️ 下载并安装 Go: $LATEST_VERSION ($GOARCH)"
 cd /opt/
