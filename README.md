@@ -23,7 +23,7 @@
 > ❗ 注意：某些精简系统（如最小化 Debian/Ubuntu）默认未安装 curl，如运行 `curl -O` 提示 `command not found`，请先运行以下命令安装 curl：
 >
 > ```bash
-> sudo apt update && sudo apt install -y curl
+> apt update && apt install -y curl
 > ```
 
 下载脚本：
